@@ -1,0 +1,93 @@
+/* Global Styles */
+body {
+  background-color: #fdf6f6; /* Light Off-White */
+  color: #002c54; /* Dark Blue */
+  font-family: 'Roboto', sans-serif; /* Improved font */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+header,
+footer {
+  background-color: #002c54; /* Dark Blue */
+  color: #fdf6f6; /* Light Off-White */
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  border-radius: 12px; /* Rounded corners */
+  padding: 20px;
+  margin: 10px 0;
+  overflow-y: auto; /* Enable vertical scrolling */
+  /* max-height: 800px; ; Set a fixed height for the card */
+  width: 100%;
+  max-width: 800px;
+}
+
+button.primary,
+a.primary {
+  background-color: #c5001a; /* Red */
+  color: #fdf6f6; /* Light Off-White */
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+button.primary:hover,
+a.primary:hover {
+  background-color: #a40016; /* Slightly darker red */
+}
+
+button.secondary,
+a.secondary {
+  background-color: #fdf6f6; /* Light Off-White */
+  color: #002c54; /* Dark Blue */
+  border: 1px solid #c5001a; /* Red */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+button.secondary:hover,
+a.secondary:hover {
+  background-color: #f1f1f1; /* Slightly lighter shade */
+}
+
+.section,
+.sidebar {
+  background-color: #ffffff; /* White */
+}
+
+.highlight {
+  color: #c5001a; /* Red */
+}
+
+.delete-icon {
+  color: #f96167; /* Red for delete icon */
+}
+
+.input-text {
+  background-color: #ffffff; /* White for input text */
+}
+
+.todo-item {
+  background-color: #f0f0f0; /* Greyish */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
