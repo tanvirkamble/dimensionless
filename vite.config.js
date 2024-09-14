@@ -12,7 +12,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      // external: ['uuid', 'axios'], // Keep this commented to avoid externalizing
+      external: ['uuid', 'axios'], // Keep this commented to avoid externalizing
     },
   },
 });
